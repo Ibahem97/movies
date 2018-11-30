@@ -1,0 +1,77 @@
+/*global*/
+*{padding: 0;
+margin: 0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+
+body{font-family: arial,tohama }
+ul{list-style: none;}
+
+/* end global*/
+.main{
+    background-color: #333;
+    color: #DDD;
+    padding: 20px;
+    text-align: center;
+} 
+.Items a{display: inline-block;}
+/*start navigation*/
+
+nav{background-color: #DDD}
+
+nav ul{padding: 20px;text-align: center}
+
+nav ul li{display: inline-block}
+
+nav ul li:after {content: " |"}
+
+nav ul li:last-child:after {content: ""}
+
+.pager {padding: 20px;text-align: center}
+.pager li{display: inline-block}
+/*end navigation*/
+/*start main*/
+main{background-color: #EEE;padding: 20px}
+main p{text-align: center}
+main p span{color: #666;font-weight: bold}
+/*end main*/
+/*start article*/
+.post{width: 60%;float: left}
+.post article{ background-color:#f6f6f6;border: 1px solid #ccc; margin: 20px;padding: 20px }
+
+.post article header {background-color: #dec9c9;
+padding: 10px;}
+.post article section{padding: 10px}
+.post article section .img-fig{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    width:220px;
+    text-align: center;
+}
+.post article section code{
+    background-color: #fff;
+    padding: 10px;
+    display: block;
+    margin: 10px 0;
+    max-width: 500px;
+    border: 1px solid #ccc;
+}
+.post article section .html5 input{display: block;margin-bottom: 10px}
+/*end article*/
+/*start sidebar*/
+aside{float: right;width: 40%}
+aside section{background-color: #EEE;margin:20px 10px;padding: 10px;border: 1px solid #ccc;margin-bottom: 20px;}
+aside section h3{background-color: #D1D1D1;padding: 10px;margin-bottom: 10px}
+
+aside section ul li{line-height: 1.8}
+
+
+/*end sidebar*/ 
+/*start footer*/
+footer {text-align: center;text-decoration: underline}
+.log table{color: aqua}
+/*end footer*/
